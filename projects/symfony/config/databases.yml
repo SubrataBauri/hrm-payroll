@@ -1,0 +1,15 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=demo.payroll.com;port=3306;dbname=payroll'
+      username: root
+      password: root
+      attributes: { export: tables }
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=demo.payroll.com;port=3306;dbname=test_payroll'
+      username: root
+      password: root

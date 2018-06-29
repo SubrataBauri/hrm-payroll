@@ -1,0 +1,42 @@
+[29-Jun-2018 09:46:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '3306' (2) in /var/www/html/installer/ApplicationSetupUtility.php on line 39
+[29-Jun-2018 09:46:58 UTC] PHP Stack trace:
+[29-Jun-2018 09:46:58 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:46:58 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:46:58 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:46:58 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:46:58 UTC] PHP   5. mysqli_connect() /var/www/html/installer/ApplicationSetupUtility.php:39
+[29-Jun-2018 09:46:58 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /var/www/html/installer/ApplicationSetupUtility.php on line 55
+[29-Jun-2018 09:46:58 UTC] PHP Stack trace:
+[29-Jun-2018 09:46:58 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:46:58 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:46:58 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:46:58 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:46:58 UTC] PHP   5. mysqli_error() /var/www/html/installer/ApplicationSetupUtility.php:55
+[29-Jun-2018 09:49:26 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '3306' (2) in /var/www/html/installer/ApplicationSetupUtility.php on line 39
+[29-Jun-2018 09:49:26 UTC] PHP Stack trace:
+[29-Jun-2018 09:49:26 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:49:26 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:49:26 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:49:26 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:49:26 UTC] PHP   5. mysqli_connect() /var/www/html/installer/ApplicationSetupUtility.php:39
+[29-Jun-2018 09:49:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /var/www/html/installer/ApplicationSetupUtility.php on line 55
+[29-Jun-2018 09:49:26 UTC] PHP Stack trace:
+[29-Jun-2018 09:49:26 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:49:26 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:49:26 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:49:26 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:49:26 UTC] PHP   5. mysqli_error() /var/www/html/installer/ApplicationSetupUtility.php:55
+[29-Jun-2018 09:55:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '3306' (2) in /var/www/html/installer/ApplicationSetupUtility.php on line 39
+[29-Jun-2018 09:55:25 UTC] PHP Stack trace:
+[29-Jun-2018 09:55:25 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:55:25 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:55:26 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:55:26 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:55:26 UTC] PHP   5. mysqli_connect() /var/www/html/installer/ApplicationSetupUtility.php:39
+[29-Jun-2018 09:55:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /var/www/html/installer/ApplicationSetupUtility.php on line 55
+[29-Jun-2018 09:55:26 UTC] PHP Stack trace:
+[29-Jun-2018 09:55:26 UTC] PHP   1. {main}() /var/www/html/install.php:0
+[29-Jun-2018 09:55:26 UTC] PHP   2. include() /var/www/html/install.php:276
+[29-Jun-2018 09:55:26 UTC] PHP   3. ApplicationSetupUtility::install() /var/www/html/installer/applicationSetup.php:24
+[29-Jun-2018 09:55:26 UTC] PHP   4. ApplicationSetupUtility::createDB() /var/www/html/installer/ApplicationSetupUtility.php:389
+[29-Jun-2018 09:55:26 UTC] PHP   5. mysqli_error() /var/www/html/installer/ApplicationSetupUtility.php:55

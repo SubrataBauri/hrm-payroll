@@ -1,0 +1,50 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3472.3 Safari/537.36
+Remote Address : 10.0.0.1
+
+Server Info
+
+Host : demo.payroll.com
+PHP Version : 5.5.9-1ubuntu4.25
+Server : Apache/2.4.7 (Ubuntu)
+Admin : webmaster@localhost
+
+Document Root : /var/www/html
+ROOT_PATH : /var/www/html
+
+OrangeHRM Installation Log
+
+Fri, 29 Jun 2018 09:59:26 +0000 DB Creation - Starting
+Fri, 29 Jun 2018 09:59:26 +0000 DB Creation - Done
+Fri, 29 Jun 2018 09:59:26 +0000 DB Creation - No Errors
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Starting
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Connected to the DB Server
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Selected the DB
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Reading DB Script
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Opened DB Script
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - Read DB script
+Fri, 29 Jun 2018 09:59:28 +0000 Fill Data Phase 1 - There are 286 Statements in the DB script
+Fri, 29 Jun 2018 09:59:30 +0000 MySQL Procedure Error:No database selected
+Fri, 29 Jun 2018 09:59:30 +0000 Fill Data Phase 1 - Done
+Fri, 29 Jun 2018 09:59:30 +0000 Fill Data Phase 1 - No Errors
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Starting
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Connected to the DB Server
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Selected the DB
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Reading DB Script
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Opened DB Script
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Read DB script
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - There are 136 Statements in the DB script
+Fri, 29 Jun 2018 09:59:32 +0000 MySQL Event Error:No database selected
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 1 - Connected to the DB Server
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - Done
+Fri, 29 Jun 2018 09:59:32 +0000 Fill Data Phase 2 - No Errors
+Fri, 29 Jun 2018 09:59:34 +0000 Create DB user - Starting
+Fri, 29 Jun 2018 09:59:34 +0000 Create DB user - Done
+Fri, 29 Jun 2018 09:59:34 +0000 Create DB user - No Errors
+Fri, 29 Jun 2018 09:59:36 +0000 Create OrangeHRM user - Starting
+Fri, 29 Jun 2018 09:59:36 +0000 Create OrangeHRM user - Done
+Fri, 29 Jun 2018 09:59:36 +0000 Create OrangeHRM user - No Errors
+Fri, 29 Jun 2018 09:59:38 +0000 Write Conf - Starting
+Fri, 29 Jun 2018 09:59:38 +0000 Write Conf - Done
+Fri, 29 Jun 2018 09:59:38 +0000 Write Conf - No Errors
