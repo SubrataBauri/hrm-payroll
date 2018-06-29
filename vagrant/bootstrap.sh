@@ -27,18 +27,6 @@ sudo apt-get install php5-common php5-dev php5-cli php5-fpm -y > /dev/null
 #echo "Installing PHP extensions"
 sudo apt-get install curl php5-curl php5-gd php5-mcrypt php5-mysql php5-xdebug php5-memcached php5-memcache php5-sqlite php5-json php5-xmlrpc php5-geoip -y > /dev/null
 
-echo "Creating xdebug log directory: /var/log/xdebug"
-sudo mkdir /var/log/xdebug > /dev/null
-echo "Changing xdebug log directory owner to www-data"
-sudo chown www-data:www-data /var/log/xdebug > /dev/null
-
-echo "Installing xdebug"
-sudo pecl install xdebug > /dev/null
-echo "Configuring xdebug"
-sudo cp /var/www/html/config/php.ini /etc/php5/apache2/php.ini > /dev/null
-sudo service apache2 restart > /dev/null
-echo "Xdebug installation completeted"
-
 # MySQL 
 echo "Preparing MySQL"
 sudo apt-get install debconf-utils -y > /dev/null
@@ -72,12 +60,6 @@ echo "Installing Node"
 sudo curl -sL https://deb.nodesource.com/setup | sudo bash - > /dev/null
 sudo sudo apt-get install -y nodejs > /dev/null
 sudo npm install npm -g
-
-echo "Installing Bower"
-sudo npm install bower -g > /dev/null
-
-echo "Installing Gulp"
-sudo npm install Gulp -g > /dev/null
 
 
 echo "Finished provisioning."

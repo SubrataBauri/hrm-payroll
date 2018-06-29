@@ -5,11 +5,11 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   # Setup port forwarding
-  config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
+  #config.vm.network "forwarded_port", guest: 22, host: 1022, host_ip: "127.0.0.1", id: 'ssh'
 
   # Setup network
-  config.vm.network "private_network", ip: "10.0.0.103"
-  config.vm.hostname = "dev.ubuntuspace.com"
+  config.vm.network "private_network", ip: "10.0.0.105"
+  config.vm.hostname = "demo.payroll.com"
 
   # Setup synced folder
     config.vm.synced_folder "projects/", "/var/www/html", group: "www-data", owner: "vagrant", :mount_options => ['dmode=775', 'fmode=775']
@@ -17,11 +17,11 @@ Vagrant.configure(2) do |config|
   # CUSTOMIZATION
    config.vm.provider "virtualbox" do |vb|
 
-     vb.name = "ubuntuspace"
+     vb.name = "payroll"
   
      # Customize the amount of memory on the VM:
-     vb.memory = "1024"
-     vb.cpus = 1
+     vb.memory = "2048"
+     vb.cpus = 2
    end
 
 
